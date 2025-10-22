@@ -84,6 +84,12 @@ The KTransformers CPU kernels (`kt-kernel`) provide AMX-optimized computation fo
 
 ## Usage Example
 
+### Downloading Models
+
+The DeepSeek-R1 models optimized for KTransformers hybrid inference (including both GPU and CPU weights) can be downloaded from the [Approaching AI ModelScope profile](https://modelscope.cn/profile/ApproachingAI2024).
+
+### Launching the Server
+
 To launch an SGLang server with KTransformers hybrid inference enabled, you can use the following command:
 
 ```bash
